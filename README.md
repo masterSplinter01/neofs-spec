@@ -43,4 +43,3 @@ Pandoc/LaTeX template
 by BSD 3-Clause License.
 
 
-test
