@@ -35,6 +35,8 @@ Basic ACL was designed to be processed and verified really fast. It's simple eno
 
 There are well-known Basic ACLs:
 
+Final -- with a flag denying Extended ACL:
+
 `private`: 0x1C8C8CCC
 
 ![Basic ACL `private`](pic/acl-basic-private)
@@ -50,6 +52,24 @@ There are well-known Basic ACLs:
 `public-append`: 0x1FBF9FFF
 
 ![Basic ACL `public-append`](pic/acl-basic-public-append)
+
+Non-final -- Extended ACL can be set:
+
+`eacl-private`: 0x0C8C8CCC
+
+![Basic ACL `eacl-private`](pic/eacl-acl-basic-private)
+
+`eacl-public-read`: 0x0FBF8CFF
+
+![Basic ACL `eacl-public-read`](pic/eacl-acl-basic-public-read)
+
+`eacl-public-read-write`: 0x0FBFBFFF
+
+![Basic ACL `eacl-public-read-write`](pic/eacl-acl-basic-public-read-write)
+
+`eacl-public-append`: 0x0FBF9FFF
+
+![Basic ACL `eacl-public-append`](pic/eacl-acl-basic-public-append)
 
 ### Extended ACL
 
